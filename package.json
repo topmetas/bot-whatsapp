@@ -1,0 +1,11 @@
+{
+  "name": "whatsapp-bot-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend-vite\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
